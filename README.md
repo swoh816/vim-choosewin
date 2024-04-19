@@ -26,8 +26,11 @@ nmap  -  <Plug>(choosewin)
 Optional configuration:
 
 ```vim
-" if you want to use overlay feature
+" If you want to use overlay feature
 let g:choosewin_overlay_enable = 1
+
+" If you have trailing space warning and you want to remove it
+let g:choosewin_active = 1
 ```
 
 More configuration options are explained in the help file. See `:help choosewin`.
